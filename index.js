@@ -30,7 +30,7 @@ var WebpackErrorsReporter = function (baseReporterDecorator, formatError, config
       if (lineNumber !== 0) {
         try {
           var data = fs.readFileSync(fileName).toString().split('\n');
-          formattedOutput += ':\n' + indentation + data[lineNumber - 1] + '\n'
+          formattedOutput += ':\n' + indentation + data[lineNumber - 1]
         } catch (exc) {
           // not a big deal, just print normal error output.
         }

@@ -1,7 +1,7 @@
 {
   "name": "karma-webpack-error-reporter",
   "description": "Karma reporter that nicely formats Webpack output",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
